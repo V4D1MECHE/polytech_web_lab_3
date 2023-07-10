@@ -2460,6 +2460,7 @@ label {
   display: block;
   position: relative;
   right: 0;
+  object-fit: cover;
 }
 
 .home-page-image.drivers {
@@ -3008,6 +3009,7 @@ label {
   max-width: none;
   opacity: 1;
   display: inline-block;
+  object-fit: cover;
 }
 
 .bg-image.vehicles {
