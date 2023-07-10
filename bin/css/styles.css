@@ -2051,6 +2051,7 @@ label {
   min-height: 100vh;
   background-color: rgba(0, 0, 0, 0);
   position: relative;
+  border: none;
 }
 
 .section.home {
@@ -2711,6 +2712,7 @@ label {
   max-width: none;
   cursor: auto;
   overflow: visible;
+  object-fit: cover;
 }
 
 .cover-image.service {
@@ -4450,6 +4452,7 @@ label {
     justify-content: center;
     padding-top: 80px;
     display: flex;
+    border: none;
   }
 
   .section.home {
