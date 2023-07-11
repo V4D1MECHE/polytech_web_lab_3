@@ -16,8 +16,7 @@ function sendMail(obj) {
             document.getElementById("contact").value = "";
             document.getElementById("message").value = "";
             console.log(res);
-            alert("Заявка успешно отправлена. Наша команда свяжется с вами в ближайшее время!")
-        })
+             })
     .catch((err) => console.log(err));
     obj.disabled = true;
     setTimeout(function() {
